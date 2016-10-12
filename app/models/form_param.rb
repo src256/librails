@@ -1,5 +1,5 @@
 # coding: utf-8
-class SearchParam
+class FormParam
   def initialize(id, label = nil, value = nil)
     # 基本はIDとlabel。valueは特別な値を紐付けたい場合にのみ使用する。
     @id = id
