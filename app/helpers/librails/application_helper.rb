@@ -22,7 +22,7 @@ module Librails
       nil
     end
 
-    def ransack_value(params, value_para, mquery_param = 'q')
+    def ransack_value(params, value_para, query_param = 'q')
       q = params[query_param]
       return nil unless q
       return nil unless q.kind_of?(Hash)
