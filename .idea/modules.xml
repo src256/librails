@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/librails.iml" filepath="$PROJECT_DIR$/.idea/librails.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librails.iml" filepath="$PROJECT_DIR$/librails.iml" />
     </modules>
   </component>
 </project>
