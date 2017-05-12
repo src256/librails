@@ -25,7 +25,7 @@ module Librails
     def ransack_value(params, value_param, query_param = 'q')
       q = params[query_param]
       return nil unless q
-      return nil unless q.kind_of?(Hash)
+      return nil unless q.kind_of?(ActionController::Parameters)
       q[value_param]
     end
   end
