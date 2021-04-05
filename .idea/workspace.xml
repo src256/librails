@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1611abbc-612d-4d4c-95b4-d2d1ed28a1d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.rdoc" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="model_utils.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/librails/model_utils.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="15">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
@@ -140,11 +139,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-46" />
-    <option name="y" value="748" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="120" />
     <option name="width" value="1920" />
-    <option name="height" value="1173" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -152,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,23 +158,12 @@
               <item name="librails" type="b2602c69:ProjectViewProjectNode" />
               <item name="librails" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="librails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="librails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="librails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="librails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="librails" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,21 +533,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-46" y="748" width="1920" height="1173" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32985783" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2350711" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2350711" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -583,6 +569,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/librails/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/librails/db_utils.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/librails/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/librails/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/librails/view_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/librails/model_utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/librails/misc_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -795,9 +821,7 @@
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc" />
     <entry file="file://$PROJECT_DIR$/app/helpers/librails/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -831,7 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/librails/model_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="15">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
@@ -865,7 +889,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>actionmailer (v4.2.7.1, rbenv: 2.3.1) [gem]</last-edited>
+          <last-edited>actioncable (v5.1.5, rbenv: 2.5.1) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -877,7 +901,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>rbenv: 2.1.5</last-edited>
+          <last-edited>rbenv: 2.4.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -894,7 +918,7 @@
             <option name="proportions">
               <list>
                 <option value="0.58850574" />
-                <option value="0.5" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
