@@ -1,41 +1,28 @@
-librails
-==============
+# Librails
+Short description and motivation.
 
-- 個人用Railsプロジェクトで使用するためのRails用共通ライブラリ
-- 作成方法に関しては [Wiki](https://srcw.net/wiki/?cmd=read&page=Rails%2F%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3)
+## Usage
+How to use my plugin.
 
-## 実行環境
+## Installation
+Add this line to your application's Gemfile:
 
-- Rails 5.1
-- Ruby 2.5.1
-
-
-## 
-
-## インストール方法
-
-- Gemfileに追加。
-```rb
-# 安定版を使用する
-gem 'librails' 
-# 開発版を使用する
-gem 'librails', :git => 'https://github.com/src256/librails.git'
+```ruby
+gem "librails"
 ```
 
-## 使用方法
-
-- view_helperを使用する場合ApplicationControllerに以下を追加。
-```rb
-class ApplicationController < ActionController::Base
- helper Librails::ApplicationHelper
-end 
-```
-- ユーティリティ系のメソッドは直接使用する
-```rb
-Librails::ModelUtils.order
-...
+And then execute:
+```bash
+$ bundle
 ```
 
-## ライセンス
+Or install it yourself as:
+```bash
+$ gem install librails
+```
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+## Contributing
+Contribution directions go here.
+
+## License
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
