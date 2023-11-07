@@ -16,36 +16,42 @@ module Librails
     self.table_name = "settings"
 
     def self.get_str(key)
-      settings = get(key)
-      return nil unless settings
-      value = normalize_value(settings.value)
-      value
+      get_value(key)
     end
 
     def self.get_int(key)
-      settings = get(key)
-      return nil unless settings
-      # Rails::Settings::Cachedが先頭に"-- "を付けているのでそれを除去する。互換性のための処理
-      value = normalize_value(settings.value)
+      value = get_value(key)
+      return nil unless value
       value.to_i
     end
 
     def self.get_time(key)
-      settings = get(key)
-      return nil unless settings
-      value = normalize_value(settings.value)
-      Time.zone.parse(value)
+      value = get_value(key)
+      return nil unless value
+      result = nil
+      begin
+        result = Time.zone.parse(value)
+      rescue => e
+        puts e.message
+      end
+      result
     end
 
     def self.normalize_value(value)
       value.sub(/^--- /, '')
     end
 
-    def self.get(key)
-      Settings.find_by(var: key)
+    def self.get_value(key)
+      settings = Settings.find_by(var: key)
+      value = nil
+      if settings
+        # Rails::Settings::Cachedが先頭に"-- "を付けているのでそれを除去する。互換性のための処理
+        value = normalize_value(settings.value)
+      end
+      value
     end
 
-    def self.set(key, value)
+    def self.set_value(key, value)
       settings = get(key)
       unless settings
         settings = Settings.new
