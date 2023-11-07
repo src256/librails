@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6527f52-8cbb-4e42-aa2b-ca46f9f96100" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/librails/settings.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/librails/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/librails/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/librails.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,7 @@
       <updated>1699002069086</updated>
       <workItem from="1699002070314" duration="402000" />
       <workItem from="1699330888016" duration="1002000" />
-      <workItem from="1699332287618" duration="1956000" />
+      <workItem from="1699332287618" duration="2522000" />
     </task>
     <servers />
   </component>
