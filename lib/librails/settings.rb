@@ -38,17 +38,21 @@ module Librails
     end
 
     def self.normalize_value(value)
-      value.sub(/^--- /, '')
+      value.sub(/^--- /, '').strip
     end
 
     def self.get_value(key)
-      settings = Settings.find_by(var: key)
+      settings = get_record(key)
       value = nil
       if settings
         # Rails::Settings::Cachedが先頭に"-- "を付けているのでそれを除去する。互換性のための処理
         value = normalize_value(settings.value)
       end
       value
+    end
+
+    def self.get_record(key)
+      Settings.find_by(var: key)
     end
 
     def self.set_value(key, value)
