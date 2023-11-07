@@ -13,6 +13,8 @@ module Librails
 
 
   class Settings < ActiveRecord::Base
+    self.table_name = "settings"
+
     def self.get_str(key)
       settings = get(key)
       return nil unless settings
