@@ -536,6 +536,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="mysql2 (v0.5.5) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/support" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/support" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.5/support" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="net-imap (v0.4.4) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -916,16 +938,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="reline (v0.3.9) [path][gem]" type="rubylib">
+      <library name="reline (v0.4.0) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/reline-0.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/reline-0.4.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/reline-0.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/reline-0.4.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -985,21 +1007,21 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="stringio (v3.0.8) [path][gem]" type="rubylib">
+      <library name="stringio (v3.0.9) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.8/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.9/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.9/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.8/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.9/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.9/lib" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/stringio-3.0.9/ext" />
         </excluded>
       </library>
     </orderEntry>

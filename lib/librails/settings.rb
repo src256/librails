@@ -37,6 +37,22 @@ module Librails
       result
     end
 
+    def self.get_array(key)
+      value = get_value(key)
+      return nil unless value
+      values = nil
+      if value =~ /^---/
+        # Rails Settings Cachedは配列をYAML形式で保存している
+        # "---\n- bootstrap\n- chatgpt\n- git\n- github\n- javascript\n
+        value = value.sub(/^---\n/, '')
+        values = value.split(/\n/).collect {|v| v.sub(/^- /, '').strip}
+      else
+        # 新方式は単なるtsvとする
+        values = value.split(/\t/)
+      end
+      values
+    end
+
     def self.normalize_value(value)
       value.sub(/^--- /, '').strip
     end
@@ -56,12 +72,18 @@ module Librails
     end
 
     def self.set_value(key, value)
-      settings = get(key)
+      settings = get_record(key)
       unless settings
         settings = Settings.new
         settings.key = key
       end
-      settings.value = value.to_s
+      str = nil
+      if value.kind_of?(Array)
+        str = value.join("\t") # タブ区切りで保存
+      else
+        str = value.to_s
+      end
+      settings.value = str
       settings.save!
     end
 
