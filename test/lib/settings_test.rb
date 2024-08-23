@@ -15,8 +15,8 @@ class SettingsTest < ActiveSupport::TestCase
     #keywords = Librails::Settings.get_value('keywords')
     #    puts keywords
     #    p keywords
-    #values = Librails::Settings.get_array('keywords')
-    #p values
+    # values = Librails::Settings.get_array('keywords')
+    # p values
     #
     # Librails::Settings.set_value('keywords', ['a', 'b', 'c'])
     # values = Librails::Settings.get_array('keywords')
