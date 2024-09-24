@@ -75,7 +75,7 @@ module Librails
       settings = get_record(key)
       unless settings
         settings = Settings.new
-        settings.key = key
+        settings.var = key
       end
       str = nil
       if value.kind_of?(Array)
